@@ -1,0 +1,68 @@
+.header {
+  position: relative;
+  z-index: 10;
+}
+.header__logo-box {
+  position: absolute;
+  top: 4rem;
+  right: 8rem;
+}
+
+.header__logo {
+  height: 3.5rem;
+}
+
+.header__text-box {
+  position: absolute;
+  top: 4rem;
+  left: 8rem;
+}
+
+.heading-primary--main {
+  color: rgba(29, 101, 185, 1);
+  font-weight: 700;
+  font-size: 2rem;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.heading-primary--sub {
+  color: rgba(29, 101, 185, 1);
+  border-top: 2px solid rgba(29, 101, 185, 0.5);
+  font-weight: 400;
+  font-size: 1.5rem;
+  animation: moveInRight 1s ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(0.5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-0.5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

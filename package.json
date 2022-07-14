@@ -1,0 +1,32 @@
+{
+  "name": "soul-machine-watson-bootcamp",
+  "version": "1.0.0",
+  "description": "This application combines [Watson Assistant](https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started) and [Soul Machines](https://support.soulmachines.cloud/) to create a digital concierge which will live inside a kiosk.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "setup:react": "cd react-ui && npm install",
+    "setup:orch": "cd orch-server && npm install",
+    "setup:certs": "cd orch-server && npm run certs",
+    "setup:token": "cd token-server && npm install",
+    "setup:envs": "./scripts/create-envs.sh",
+    "dev:token": "cd token-server && npm run dev",
+    "dev:orch": "cd orch-server && npm run dev",
+    "dev:react": "cd react-ui && npm run dev",
+    "setup": "concurrently npm:setup:*",
+    "dev": "concurrently npm:dev:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/David-Levy/test-soul"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.19"
+  }
+}

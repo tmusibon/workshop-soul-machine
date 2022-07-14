@@ -1,0 +1,20 @@
+# directories
+node_modules
+npm-debug.log
+build
+.dockerignore
+logs/
+dist
+ssl
+
+# files
+.env
+.env*
+
+# macOS Files
+.DS_Store
+
+#cert folder
+.crt
+.csr
+.key

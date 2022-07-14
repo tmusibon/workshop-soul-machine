@@ -1,0 +1,35 @@
+{
+  "name": "node-orchestration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon -L",
+    "local": "cp local.env .env && nodemon -L",
+    "start": "node ./dist/server.js",
+    "gcp-deploy": "npm run build & gcloud app deploy --project tw-remoteorch app.yaml --stop-previous-version --promote --version baseline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "form-data": "^4.0.0",
+    "ibm-cos-sdk": "^1.11.0",
+    "jsonwebtoken": "^8.4.0",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/jsonwebtoken": "^8.3.0",
+    "@types/ws": "^6.0.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}

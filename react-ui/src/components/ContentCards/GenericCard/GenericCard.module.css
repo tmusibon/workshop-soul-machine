@@ -1,0 +1,13 @@
+.card__container {
+  padding: 3rem;
+  background-color: lightgray;
+}
+
+.title {
+  color: black;
+  font-size: 2rem;
+}
+
+.list {
+  list-style: none;
+}
