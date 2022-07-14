@@ -8,7 +8,6 @@ import Link from './ContentCards/Link';
 import Image from './ContentCards/Image';
 import Images from './ContentCards/Images';
 import Video from './ContentCards/Video';
-import GenericCard from './ContentCards/GenericCard';
 import TermsAndConditions from './ContentCards/TermsAndConditions';
 import { setActiveCards, animateCamera } from '../store/sm/index';
 
@@ -50,10 +49,6 @@ const ContentCardSwitch = ({ activeCards, dispatchActiveCards, card, index, inTr
     },
     video: {
       element: Video,
-      removeOnClick: false,
-    },
-    generic: {
-      element: GenericCard,
       removeOnClick: false,
     },
   };
