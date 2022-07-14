@@ -18,8 +18,8 @@ Setup and Install
 $ npm run setup
 ```
 
-This will install all dependencies for each of the three services (react-ui, orch-server, and token-server).
-This will also copy the env.example to an .env file in each directory.
+This will install all dependencies for each of the three services (react-ui, orch-server, and token-server),
+copy the env.example to an .env file in each directory and create self signed certs for local development.
 
 ## Update Environment Variables in .env For Each Service
 
@@ -203,4 +203,3 @@ Contact via Slack:
 - [David Levy](https://ibm.enterprise.slack.com/user/@U02225LE6A1)
 - [Louis Rangel](https://ibm.enterprise.slack.com/user/@W8U657ATA)
 - [Morgan Carroll](https://ibm.enterprise.slack.com/user/@W8U657ATA)
-
