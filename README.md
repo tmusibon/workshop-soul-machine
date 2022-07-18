@@ -12,11 +12,24 @@ $ cd workshop-soul-machine
 $ npm install
 ```
 
-Setup and Install Day One
+Setup and Install Day One (token server)
 
 ```sh
 $ npm run setup:envs
-$ npm run setup:<the service you want to setup ie "token">
+$ npm run setup:token
+```
+
+Setup and Install Day Two (orchestration server)
+
+```sh
+$ npm run setup:certs
+$ npm run setup:orch
+```
+
+Setup and Install Day Three (React UI)
+
+```sh
+$ npm run setup:react
 ```
 
 This will install all dependencies for each of the three services (react-ui, orch-server, and token-server),
