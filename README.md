@@ -21,6 +21,24 @@ $ npm run setup
 This will install all dependencies for each of the three services (react-ui, orch-server, and token-server),
 copy the env.example to an .env file in each directory and create self signed certs for local development.
 
+## Upload Sample Dialog Skill to Watson Assistant
+
+Log in to https://cloud.ibm.com/
+
+Create your Watson Assistant service, and Watson Assitant.
+
+You can either switch to classic experience (top right of the screen drop down)
+
+Create your new Assistant.
+
+Click the blue button "Add an action or dialog skill".
+
+Navigate to the "Upload Skill" tab.
+
+Click the "Drag and drop file here or click to select a file"
+
+Upload the reusable skill json (found in watson/)
+
 ## Update Environment Variables in .env For Each Service
 
 **Only update the values where indicated**
