@@ -39,6 +39,29 @@ Click the "Drag and drop file here or click to select a file"
 
 Upload the reusable skill json (found in watson/)
 
+## Create Soul Machines Persona
+
+Log in to https://studio.soulmachines.cloud/
+
+Click "New Project +"
+
+Choose a Name (ie group-1), Choose a label (dev), customize your avatar.
+
+Choose a language and voice.
+
+Go to the bottom of the page, and click "Orhcestration server"
+
+Toggle "I'm developing locally"
+
+Orchestration Server URL will be: "https://localhost:3001"
+
+Public IP Address & Subnet Mask
+
+(You can grab your IP from https://www.ipchicken.com/)
+
+And place this there:
+[YOUR IP]/32
+
 ## Update Environment Variables in .env For Each Service
 
 **Only update the values where indicated**
