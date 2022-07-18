@@ -170,6 +170,25 @@ REACT_APP_AUDIO_SAVE_API=
 
 From the root directory:
 
+Run Day One (token server)
+
+```sh
+$ npm run dev:token
+```
+
+Run Day Two (orchestration server)
+
+In two seperate terminals:
+
+```sh
+$ npm run dev:token
+$ npm run dev:orch
+```
+
+Run Day Three (React UI)
+
+This will run all three services from one terminal
+
 ```sh
 $ npm run dev
 ```
