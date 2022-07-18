@@ -15,6 +15,7 @@ $ npm install
 Setup and Install Day One
 
 ```sh
+$ npm run setup:envs
 $ npm run setup:<the service you want to setup ie "token">
 ```
 
