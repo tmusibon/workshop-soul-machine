@@ -9,7 +9,7 @@
 }
 
 .header__logo {
-  height: 3.5rem;
+  height: 12.5rem;
 }
 
 .header__text-box {
@@ -19,7 +19,7 @@
 }
 
 .heading-primary--main {
-  color: rgba(29, 101, 185, 1);
+  color: rgb(11, 115, 235);
   font-weight: 700;
   font-size: 2rem;
   animation-name: moveInLeft;
@@ -28,7 +28,7 @@
 }
 
 .heading-primary--sub {
-  color: rgba(29, 101, 185, 1);
+  color: rgb(232, 149, 149);
   border-top: 2px solid rgba(29, 101, 185, 0.5);
   font-weight: 400;
   font-size: 1.5rem;

@@ -9,8 +9,8 @@ const Header = () => (
       <img src={logo} className={styles.header__logo} alt={logoAltText} />
     </div>
     <div className={styles['header__text-box']}>
-      <div className={styles['heading-primary--main']}>IBM and Soul Machines</div>
-      <div className={styles['heading-primary--sub']}>Reusable Content</div>
+      <div className={styles['heading-primary--main']}>Toronto Pearson Airport</div>
+      <div className={styles['heading-primary--sub']}>For You. The World</div>
     </div>
   </header>
 );
