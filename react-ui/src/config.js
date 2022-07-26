@@ -1,11 +1,11 @@
 /* eslint-disable import/prefer-default-export */
-import Pearson_logo from './img/toronto_pearson.svg';
+import dog from './img/dog.svg';
 
 // header will not take up vertical height when transparent, so you need to be mindful of overlap
 export const transparentHeader = true;
 export const headerHeight = '8rem';
-export const logo = Pearson_logo;
-export const logoAltText = 'Toronto Pearson logo';
+export const logo = dog;
+export const logoAltText = 'Pet dog logo';
 export const logoLink = '/';
 
 // background image is positioned in a way that is best for pictures of the persona's face.

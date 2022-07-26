@@ -458,13 +458,13 @@
           "data": {
             "images": [
               {
-                "alt": "This is a cat!",
-                "url": "https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              },
-              {
-                "alt": "This is a dog",
-                "url": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              }
+            "alt": "This is the terminal",
+            "url": "https://pentagram-production.imgix.net/f0d69667-b2f8-417d-8805-b5379e0af290/mg_torontoairport_01.jpg?rect=0%2C300%2C3000%2C1875&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548"
+          },
+          {
+            "alt": "This is a map",
+            "url": "https://i.pinimg.com/originals/ff/bd/45/ffbd4517ae45701f2f906adedca56fa1.png"
+          }
             ]
           },
           "component": "images"

@@ -10,34 +10,37 @@ const StoryCard = ({ data, dispatchTextFromData }) => {
       <div className={styles.title_container}>
         <h1 className={styles.title}>{parameters.title}</h1>
         <p className={styles.content}>
-          Pearson Airport is more than just a transportation hub. We are always working to fuel
-          success for our region now and into the future.
+          Friends of Animals is the global engine of change for pets. For more than 30 years, we’ve
+          inspired individuals and communities to work to change laws, improve shelters, and most
+          importantly—save pets.
         </p>
         <h2 className={styles.subtitle}>{parameters.subtitle}</h2>
         <div className={styles.content_container}>
           <p className={styles.content}>
-            Toronto Pearson is Canada's largest airport in terms of total passenger traffic and
-            North America's second largest in terms of international traffic. With daily non-stop
-            flights to many of the world's economies, we move people and goods across the country,
-            the continent and around the globe.
-            <br /> Our goal is to create the airport of the future and we are well positioned to
-            make this a reality.
+            Since our founding in 1990, we have championed Trap-Neuter-Return (TNR) as the only
+            humane and effective approach for community pets management. By establishing and
+            promoting optimal standards of care, we have propelled the humane treatment of pets into
+            the global spotlight.
             <p>To reach our goal, we will differentiate ourselves by:</p>
             <ul>
               <li>Ensuring reliable service</li>
-              <li>Anticipating and exceeding of the needs of our passengers</li>
-              <li>Fostering a welcoming and relaxing atmosphere</li>
-              <li>roviding competitive costs and value to airlines and our shared passengers</li>
+              <li>
+                {' '}
+                Improving and saving animal lives by promoting quality care and compassion through
+                adoption and education around the world.
+              </li>
+              <li>Fostering a welcoming and relaxing atmosphere for animals</li>
+              <li>Working with shelters to implement lifesaving programs for all animals.</li>
               <li>Growing sustainably</li>
             </ul>
           </p>
         </div>
         <div
           className={styles.button}
-          data-trigger-text={'Learn more'}
+          data-trigger-text={'show more'}
           onClick={dispatchTextFromData}
         >
-          LEARN MORE
+          SHOW MORE
         </div>
       </div>
     </div>

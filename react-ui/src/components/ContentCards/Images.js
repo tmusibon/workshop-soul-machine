@@ -13,7 +13,7 @@ const Images = ({ data }) => {
             src={image.url}
             alt={image.alt}
             style={{
-              maxHeight: '360px',
+              maxHeight: '260px',
               margin: '0.5rem',
               borderRadius: '10%',
               width: 'auto',
