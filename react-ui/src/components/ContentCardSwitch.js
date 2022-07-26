@@ -9,6 +9,7 @@ import Image from './ContentCards/Image';
 import Images from './ContentCards/Images';
 import Video from './ContentCards/Video';
 import TermsAndConditions from './ContentCards/TermsAndConditions';
+import StoryCard from './ContentCards/StoryCard/StoryCard';
 import { setActiveCards, animateCamera } from '../store/sm/index';
 
 const returnCardError = (errMsg) => {
@@ -49,6 +50,10 @@ const ContentCardSwitch = ({ activeCards, dispatchActiveCards, card, index, inTr
     },
     video: {
       element: Video,
+      removeOnClick: false,
+    },
+    story: {
+      element: StoryCard,
       removeOnClick: false,
     },
   };

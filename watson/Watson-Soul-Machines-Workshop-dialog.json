@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "intent": "generic",
+      "intent": "story",
       "examples": [
         {
           "text": "can i see an example"
@@ -10,7 +10,7 @@
           "text": "can i see a react component example"
         },
         {
-          "text": "i want to see a generic card"
+          "text": "a story component"
         },
         {
           "text": "just a regular example"
@@ -22,20 +22,23 @@
           "text": "plain example please"
         },
         {
-          "text": "Show me a generic card"
+          "text": "show me a story card"
         },
         {
-          "text": "show me a generic example"
+          "text": "story card"
         },
         {
           "text": "show me anything"
         },
         {
-          "text": "something simple"
+          "text": "story"
         },
         {
           "text": "test"
-        }
+        },
+        {
+          "text": "show me a story component"
+      }
       ],
       "description": "A generic card example using a React Component"
     },
@@ -646,8 +649,8 @@
                 "value": "Show me some a video"
               },
               {
-                "label": "Generic React Component",
-                "value": "Show me a generic card"
+                "label": "A story",
+                "value": "Show me a story card"
               }
             ]
           },

@@ -7,7 +7,7 @@ const CONTEXT_VARIABLES = [
   'public-video',
 ];
 
-const CONTEXT_ACTIONS = ['generic', 'privacy_policy'];
+const CONTEXT_ACTIONS = ['generic', 'privacy_policy', 'story'];
 
 export const addCardIfVariableFound = (resContext, variables) => {
   CONTEXT_VARIABLES.forEach((contextVariable) => {

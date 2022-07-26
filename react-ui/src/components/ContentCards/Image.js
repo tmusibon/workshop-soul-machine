@@ -5,7 +5,7 @@ const Image = ({ data }) => {
   const { url, alt } = data;
   return (
     <div style={{ width: 'auto', maxWidth: '100%' }}>
-      <img src={url} alt={alt} style={{ width: '100%', height: 'auto' }} />
+      <img src={url} alt={alt} style={{ width: '60%', height: '40%' }} />
     </div>
   );
 };
